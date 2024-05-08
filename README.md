@@ -31,4 +31,37 @@ Network Diagram: <br/>
 <img src="https://i.imgur.com/CPijL8i.jpeg"/>
 <br />
 <br />
-Open GNS3:  <br/>
+Open GNS3 and choose local server, then click next:  
+<img src="https://i.imgur.com/CDtO620.png" >
+<br />
+<br />
+Choose the same options as the image below and upload the Cisco 3640 router image. Then click next.
+<img src="https://i.imgur.com/GbIBXz3.png">
+<br />
+<br />
+For general routing purposes choose the network adapter NM-1FE-TX for slot 0 and slot 1.
+<img src="https://i.imgur.com/yletXXP.png">
+<br />
+<br />
+Drag and drop 3 of the Cisco routers and form a triangle shape. 
+<img src="https://i.imgur.com/aJABEWx.png">
+<br />
+<br />
+Click the bottom left box with the red x such as in the image below and connect each router to the other using the FastEthernet. Once all routers are connected start the devices by hitting the green play button on the top. 
+<img src="https://i.imgur.com/xGSuhz4.png">
+<br />
+<br />
+Once all of the devices are on and running indicated by the green dots on the wires connecting the routers, click Consol connect to all devices as in the image below.
+<br />
+<img src="https://i.imgur.com/q8jd9oO.png">
+<br /> 
+<br />
+<img src="https://i.imgur.com/go62rqJ.png">
+<br />
+<br />
+Enter all the commands for each router as shown in the image below. 
+<img src="https://i.imgur.com/KG9IK1v.png">
+
+
+ 
+ 
