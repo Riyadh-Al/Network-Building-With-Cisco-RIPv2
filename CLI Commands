@@ -1,0 +1,59 @@
+en 
+conf t
+hostname Alhoyidy-Router1
+int f0/0
+ip addr 30.0.0.1 255.0.0.0
+no shut
+int f1/0
+ip addr 20.0.0.1 255.0.0.0
+no shut
+int loop0
+ip addr 11.0.0.1 255.0.0.0
+no shut
+router rip
+version 2
+network 11.0.0.0
+network 20.0.0.0
+network 30.0.0.0
+end
+copy running-config startup-config
+----------------------------------
+en 
+conf t
+hostname Alhoyidy-Router2
+int f0/0
+ip addr 30.0.0.2 255.0.0.0
+no shut
+int f1/0
+ip addr 10.0.0.1 255.0.0.0
+no shut
+int loop0
+ip addr 12.0.0.1 255.0.0.0
+no shut
+router rip
+version 2
+network 12.0.0.0
+network 10.0.0.0
+network 30.0.0.0
+end
+copy running-config startup-config
+----------------------------------
+en 
+conf t
+hostname Alhoyidy-Router3
+int f0/0
+ip addr 10.0.0.2 255.0.0.0
+no shut
+int f1/0
+ip addr 20.0.0.2 255.0.0.0
+no shut
+int loop0
+ip addr 13.0.0.1 255.0.0.0
+no shut
+router rip
+version 2
+network 13.0.0.0
+network 10.0.0.0
+network 20.0.0.0
+end
+copy running-config startup-config
