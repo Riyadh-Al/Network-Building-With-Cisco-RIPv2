@@ -61,7 +61,16 @@ Once all of the devices are on and running indicated by the green dots on the wi
 <br />
 Enter all the commands for each router as shown in the image below. 
 <img src="https://i.imgur.com/KG9IK1v.png">
-
-
- 
+<br /> 
+<br />
+This is how the network output should look after entering the show IP interface brief command for each router. 
+<br />
+<img src="https://i.imgur.com/uFno9Qh.png">
+<br />
+<br />
+Ping networks to test connectivity and make sure everything is working. 
+<img src="https://i.imgur.com/lQ9IGem.png">
+<br />
+<br />
+<img src="https://i.imgur.com/P6UNJaJ.png">
  
