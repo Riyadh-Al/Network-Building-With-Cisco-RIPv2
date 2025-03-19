@@ -1,6 +1,7 @@
 # Network-Building-With-Cisco-RIPv2
 
- ### [YouTube Demonstration]
+[YouTube Demonstration](https://youtu.be/w5Kgd4MYS98)
+
 
 <h2>Description</h2>
 This project features a virtual network simulation of three Cisco 3600 series routers using GNS3, a free and robust network simulation tool. The network is configured with Cisco’s proprietary Routing Information Protocol version 2 (RIPv2) to demonstrate efficient routing operations. Each router is also equipped with a loopback address to enhance network reliability and stability. This setup highlights advanced network configuration techniques and the practical application of dynamic routing protocols in an educational and demonstration context.
